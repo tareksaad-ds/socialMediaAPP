@@ -1,0 +1,24 @@
+$mainColor: #451275;
+
+h2 {
+  text-align: center;
+  color: white;
+  padding-top: 185px;
+}
+
+.button {
+  background-color: white;
+}
+.here {
+  background-color: $mainColor;
+  min-height: 600px;
+}
+.btn-secondary {
+  color: $mainColor;
+  background-color: white;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color: $mainColor;
+  border: 3px solid black;
+}

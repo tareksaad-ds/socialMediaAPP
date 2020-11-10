@@ -1,0 +1,40 @@
+$mainColor: #451275;
+
+.posty {
+  margin-top: 2px;
+  display: unset;
+  padding: 50px;
+  max-width: 700px;
+}
+.post {
+  margin: 10px 0 10px 0;
+}
+.hear {
+  color: $mainColor;
+  font-size: 20px;
+}
+.bod {
+  min-height: 150px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dolly {
+  color: $mainColor;
+  font-size: 20px;
+  padding: 0px 40px 0px 10px;
+}
+.date {
+  float: right;
+}
+.like {
+  color: $mainColor;
+  border: none;
+  cursor: pointer;
+  border-radius: 40%;
+}
+.comment {
+  color: $mainColor;
+  border: none;
+  cursor: pointer;
+  border-radius: 40%;
+}

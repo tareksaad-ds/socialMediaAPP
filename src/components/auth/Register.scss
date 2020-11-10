@@ -1,0 +1,26 @@
+$mainColor: #451275;
+$width: 400px;
+$margino: 30px;
+
+.bad {
+  margin-bottom: $margino;
+  font-size: 20px;
+  margin-left: auto 0;
+  color: $mainColor;
+  font-weight: bolder;
+}
+
+.register {
+  margin-top: $margino;
+  max-width: $width;
+  align-content: center;
+}
+
+a {
+  margin-left: $margino;
+  color: $mainColor;
+}
+a:hover {
+  margin-left: $margino;
+  color: purple;
+}

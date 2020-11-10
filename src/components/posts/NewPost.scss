@@ -1,0 +1,25 @@
+$mainColor: #451275;
+$width: 400px;
+$margino: 30px;
+
+.btn-primary {
+  background-color: $mainColor;
+  color: white;
+  max-width: 100px;
+}
+.btn-primary:hover {
+  background-color: white;
+  border: $mainColor solid 1px;
+  color: $mainColor;
+}
+.btn-primary:focus {
+  background-color: #ddd;
+  border: black solid 1px;
+  color: $mainColor;
+}
+
+.newpost {
+  margin-top: $margino;
+  max-width: $width;
+  align-content: center;
+}

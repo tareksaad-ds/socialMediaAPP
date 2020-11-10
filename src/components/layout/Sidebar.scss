@@ -1,0 +1,13 @@
+$mainColor: #451275;
+
+.btn-success {
+  background-color: $mainColor;
+  color: white;
+  max-width: 100px;
+  float: right;
+}
+.btn-success:hover {
+  background-color: white;
+  border: $mainColor solid 1px;
+  color: $mainColor;
+}
